@@ -17,7 +17,7 @@ port=8080 #Hosting Port, Don't Change This
 buff=1500 #Also Don't Change This
 
 #Pytest Build Temporary Fix
-pytest.skip("No Test Functionality Implemented")
+pytest.skip("No Test Functionality Implemented", allow_module_level=True)
 
 #Initalisation of TCP Socket Server
 s=socket.socket(socket.AF_INET, socket.SOCK_STREAM) #TCP/IP Socket
