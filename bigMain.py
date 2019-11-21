@@ -1,4 +1,4 @@
-#Copyright 2019 Derek Frombach
+#Copyright (c) 2019 Derek Frombach
 from PIL import Image
 import numpy as np
 import cv2
