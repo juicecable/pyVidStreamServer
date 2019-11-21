@@ -1,4 +1,4 @@
-#Copyright (c) 2019 Derek Frombach
+#Copyright (c) 2019 UofRobotics
 
 #Python Video Streaming Server over MJPEG
 #Compatible with VLC as HTTP stream
