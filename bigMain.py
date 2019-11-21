@@ -3,6 +3,8 @@
 #Python Video Streaming Server over MJPEG
 #Compatible with VLC as HTTP stream
 #Server Runs on Ubuntu, Requires Camera
+import pytest #This Line Can Be Removed on Installation
+
 from PIL import Image
 import numpy as np
 import cv2
@@ -22,6 +24,7 @@ s.bind((ip,port)) #Start Server
 s.listen(1) #Listen for Connections
 
 #Initalisation of Camera
+pass #Temporary Fix for PyTest Build
 cap = cv2.VideoCapture(0)
 
 #Initalisation of Log File
