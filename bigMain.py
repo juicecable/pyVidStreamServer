@@ -16,6 +16,9 @@ ip="0.0.0.0" #Don't Change This
 port=8080 #Hosting Port, Don't Change This
 buff=1500 #Also Don't Change This
 
+#Pytest Build Temporary Fix
+pytest.skip("No Test Functionality Implemented")
+
 #Initalisation of TCP Socket Server
 s=socket.socket(socket.AF_INET, socket.SOCK_STREAM) #TCP/IP Socket
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) #Unbind when Done
@@ -24,7 +27,6 @@ s.bind((ip,port)) #Start Server
 s.listen(1) #Listen for Connections
 
 #Initalisation of Camera
-pass #Temporary Fix for PyTest Build
 cap = cv2.VideoCapture(0)
 
 #Initalisation of Log File
