@@ -1,4 +1,8 @@
 #Copyright (c) 2019 Derek Frombach
+
+#Python Video Streaming Server over MJPEG
+#Compatible with VLC as HTTP stream
+#Server Runs on Ubuntu, Requires Camera
 from PIL import Image
 import numpy as np
 import cv2
