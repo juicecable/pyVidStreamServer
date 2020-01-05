@@ -2,7 +2,7 @@
 
 #Python Video Streaming Server over MJPEG
 #Compatible with VLC as HTTP stream
-#Server Runs on Ubuntu, Requires Camera
+#Server Runs on Linux/Windows, Requires Camera
 import cv2
 from PIL import Image
 import time
